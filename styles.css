@@ -1,0 +1,88 @@
+.left {
+  background-color: green;
+  width: 200px;
+  height: 1450px;
+}
+
+.right {
+  background-color: blue;
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#container {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+
+}
+
+/*  margin: 50px(haut) 20px(droite) 30px(bas) 80px(gauche);
+/*On trouve 4 fonctions pour display:
+block, inline, inline-block et none*/
+
+/*p {
+  color:rgba(0, 0, 255, 1);
+  font-size: 30px; /*on peut xprimer la taille de la police avec les "em", si on ecrit font-size: 2em, la police aparait 2 fois plus grand que celle d'origine. Egalement si on le donne la valeur de 0.5, la taille sera 2 fois plus petite.*/
+  /*font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+h1 {
+  color: green;
+
+}
+
+.special-paragraphe {
+  color: orange;
+}
+
+#unique {
+  font-size: 80px;
+}
+
+a:link {
+  color: orange;
+
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+
+/* p:first-child {
+  font-size: 40px;
+} C'est pour selectioner le premier p apres le body.*/
+
+/* *{} pour toucher a tous le elements*/
+
+/*On trouve 3 polices integres dans le css:
+serif
+sans-serif
+cursive
+*/
+
+/*Pour les couleurs: representation hexadecimal:
+Quand on compte dans le quitidien on le fait en base 10, c'est à dire:
+0 1 2 3 4 5 6 7 8 9 ---- Base 10
+0 1 2 3 4 5 6 7 8 9 A B C D E F ---base 16 (hexadecimal)
+
+Les couleurs vont être representes sous cette forme hexadecimale.
+#ddbd3a --> 3 couples de 2 valeurs, chaque couple represente une couler du code RGB.
+P.E: dd c'est la valeur de R(Red), bd celle du G(Green) et 3a celle du B(Blue).
+On ajoute toujours le symbol #.
+RGB -Red,Green,Blue- (255, 255, 255 - sont les valeurs maximales pour les couleurs, de 0 à 255-)
+On a aussi le ode rgba(A de alfa)
+Dans l'exemple anterieur on avait: (0, 0, 255) pour creer la couleur bleue.
+Si on applique le code rgba : (0, 0, 255, 0.5). Le dernier numero represente la ransparence qu'on veut donner au texte.
+La valeur de la transparence va du 0 à 1. 0 = completement transparent et 1 completement opaque.*/
